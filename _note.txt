@@ -1,0 +1,4 @@
+1.Props and destructuring..
+=> when we are send component prameter then that prameter is buind in props. we are send any type of prameter to props.
+=> we are use prameter like (props.fiendName) But have another ease way to use props. we are do props destructuring.. like 
+>>> const {titel} = props;

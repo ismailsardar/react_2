@@ -1,21 +1,15 @@
 import './App.css';
+import Card from './components/Card';
 
 function App() {
-
-  const Card = () => {
-    return (
-      <div className="App">
-      <h1 style={{color:"green", fontSize: "4rem"}} >Wellcom</h1>
-    </div>
-    )
-  }
+  // Props and destructuring
 
   return (
     <>
-      <Card />
-      <Card />
-      <Card />
-      <Card />
+      <h1 className='heading'>To-Do App</h1>
+      <Card cardTitle="What is React?" />
+      <Card cardTitle="What is mongoDb?" />
+      <Card cardTitle="What is Node.js?" />
     </>
     
   );
