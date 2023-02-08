@@ -2,3 +2,9 @@
 => when we are send component prameter then that prameter is buind in props. we are send any type of prameter to props.
 => we are use prameter like (props.fiendName) But have another ease way to use props. we are do props destructuring.. like 
 >>> const {titel} = props;
+
+2. React Hooke..
+-> react hookeis work for functional component but not working class component.
+
+3. useEffect()..
+-> when component is rendering then useEffect() is calling. useEffect() is use API calling etc.
