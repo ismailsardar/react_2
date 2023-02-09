@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+
+.valid{
+  color: green;
+}
+/* .valid:focus{
+  border: 2px solid green;
+} */
+.inValid{
+  color: red;
+}

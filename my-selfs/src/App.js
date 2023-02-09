@@ -1,5 +1,6 @@
 import './App.css';
 import Dynamic from './components/Dynamic_Styling/Dynamic';
+import Dynamic2 from './components/Dynamic_Styling/Dynamic2';
 // import DataFatch from './components/customHook/DataFatch';
 // import Toggle from './components/Toggle';
 // import UnderActivite from './components/UnderActivite';
@@ -21,6 +22,7 @@ function App() {
       {/* <Toggle /> */}
       {/* <DataFatch /> */}
       <Dynamic />
+      <Dynamic2 />
     </>
     
   );
