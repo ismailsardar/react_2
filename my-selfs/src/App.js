@@ -1,5 +1,10 @@
 import './App.css';
-import ContextApi1 from './components/Context_Api/ContextApi_1';
+
+import {BrowserRouter, Route, Routes} from 'react-router-dom'
+import Home from './pages/Home';
+import Countact from './pages/Countact';
+import Error from './pages/Error';
+// import ContextApi1 from './components/Context_Api/ContextApi_1';
 // import Reduser from './components/UseReducer/Reduser';
 // import Dynamic from './components/Dynamic_Styling/Dynamic';
 // import Dynamic2 from './components/Dynamic_Styling/Dynamic2';
@@ -29,7 +34,18 @@ function App() {
       {/* <State /> */}
       {/* <Reduser /> */}
       {/* context api */}
-      <ContextApi1 />
+      {/* <ContextApi1 /> */}
+
+      {/* React Router Dom */}
+      <BrowserRouter>
+
+       <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/countact' element={<Countact />} />
+        <Route path='*' element={<Error />} />
+       </Routes>
+
+      </BrowserRouter>
     </>
     
   );
