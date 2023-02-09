@@ -1,6 +1,8 @@
 import './App.css';
-import Dynamic from './components/Dynamic_Styling/Dynamic';
-import Dynamic2 from './components/Dynamic_Styling/Dynamic2';
+import Reduser from './components/UseReducer/Reduser';
+// import Dynamic from './components/Dynamic_Styling/Dynamic';
+// import Dynamic2 from './components/Dynamic_Styling/Dynamic2';
+import State from './components/UseReducer/State';
 // import DataFatch from './components/customHook/DataFatch';
 // import Toggle from './components/Toggle';
 // import UnderActivite from './components/UnderActivite';
@@ -21,8 +23,10 @@ function App() {
       {/* <UnderActivite /> */}
       {/* <Toggle /> */}
       {/* <DataFatch /> */}
-      <Dynamic />
-      <Dynamic2 />
+      {/* <Dynamic /> */}
+      {/* <Dynamic2 /> */}
+      {/* <State /> */}
+      <Reduser />
     </>
     
   );
