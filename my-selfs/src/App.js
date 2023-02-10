@@ -4,6 +4,7 @@ import {BrowserRouter, Route, Routes} from 'react-router-dom'
 import Home from './pages/Home';
 import Countact from './pages/Countact';
 import Error from './pages/Error';
+import NavLinks from './pages/NavLinks';
 // import ContextApi1 from './components/Context_Api/ContextApi_1';
 // import Reduser from './components/UseReducer/Reduser';
 // import Dynamic from './components/Dynamic_Styling/Dynamic';
@@ -38,13 +39,12 @@ function App() {
 
       {/* React Router Dom */}
       <BrowserRouter>
-
+      <NavLinks />
        <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/countact' element={<Countact />} />
         <Route path='*' element={<Error />} />
        </Routes>
-
       </BrowserRouter>
     </>
     

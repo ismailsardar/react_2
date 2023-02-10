@@ -46,3 +46,7 @@
 .inValid{
   color: red;
 }
+
+nav .active{
+  color: rgb(5, 240, 16);
+}
