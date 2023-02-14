@@ -1,4 +1,5 @@
 import React from 'react'
+import CondRen from './CondRen'
 import From from './From'
 import Function from './Function'
 import Props from './Props'
@@ -10,6 +11,7 @@ const MyComponent = () => {
         <Function />
         <Props name={"Ismile"} />
         <From />
+        <CondRen />
     </div>
   )
 }
