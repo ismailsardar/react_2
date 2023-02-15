@@ -2,6 +2,7 @@ import React from 'react'
 import CondRen from './CondRen'
 import From from './From'
 import Function from './Function'
+import MyClass from './myClass'
 import Props from './Props'
 
 const MyComponent = () => {
@@ -12,6 +13,7 @@ const MyComponent = () => {
         <Props name={"Ismile"} />
         <From />
         <CondRen />
+        <MyClass />
     </div>
   )
 }
