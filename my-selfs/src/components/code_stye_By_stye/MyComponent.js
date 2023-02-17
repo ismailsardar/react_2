@@ -4,6 +4,7 @@ import From from './From'
 import Function from './Function'
 import MyClass from './myClass'
 import Props from './Props'
+import PureComponents from './pureComponent/PureComponent'
 
 const MyComponent = () => {
   return (
@@ -14,6 +15,7 @@ const MyComponent = () => {
         <From />
         <CondRen />
         <MyClass />
+        <PureComponents />
     </div>
   )
 }
