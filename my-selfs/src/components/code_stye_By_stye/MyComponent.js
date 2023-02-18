@@ -1,4 +1,5 @@
 import React from 'react'
+import ClassRef from './Ref/ClassRef'
 import CondRen from './CondRen'
 import From from './From'
 import Function from './Function'
@@ -18,6 +19,7 @@ const MyComponent = () => {
         <MyClass />
         <PureComponents />
         <MyMemo />
+        <ClassRef />
     </div>
   )
 }
