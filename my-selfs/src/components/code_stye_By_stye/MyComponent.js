@@ -1,4 +1,5 @@
 import React from 'react'
+import ForwardRef from './Ref/ForwardRef'
 import ClassRef from './Ref/ClassRef'
 import CondRen from './CondRen'
 import From from './From'
@@ -13,15 +14,16 @@ const MyComponent = () => {
   return (
     <div>
         <h2>Code Step By Step</h2>
-        {/* <Function />
+        <Function />
         <Props name={"Ismile"} /> 
         <From />
         <CondRen />
         <MyClass />
         <PureComponents />
         <MyMemo />
-        <ClassRef /> */}
+        <ClassRef />
         <FunRef />
+        <ForwardRef />
     </div>
   )
 }

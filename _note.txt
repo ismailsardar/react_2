@@ -8,3 +8,6 @@
 
 3. useEffect()..
 -> when component is rendering then useEffect() is calling. useEffect() is use API calling etc.
+
+4. forwardRef(child)..
+-> forwardRef is provide to access to child component input fields by parents components.
