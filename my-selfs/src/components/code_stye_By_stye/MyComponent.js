@@ -1,4 +1,5 @@
 import React from 'react'
+import HocFunction from './HOC/HocFunction'
 import ForwardRef from './Ref/ForwardRef'
 import ClassRef from './Ref/ClassRef'
 import CondRen from './CondRen'
@@ -24,6 +25,7 @@ const MyComponent = () => {
         <ClassRef />
         <FunRef />
         <ForwardRef />
+        <HocFunction />
     </div>
   )
 }

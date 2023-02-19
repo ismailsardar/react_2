@@ -11,3 +11,6 @@
 
 4. forwardRef(child)..
 -> forwardRef is provide to access to child component input fields by parents components.
+
+5. Higher-Order Components..
+-> a higher-order component is a function that takes a component and returns a new component.
