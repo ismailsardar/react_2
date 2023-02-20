@@ -12,6 +12,9 @@ const NavDemo = () => {
         <li>          
           <NavLink to="/filter">Filter</NavLink>          
         </li>
+        <li>          
+          <NavLink to="/contact">Contact</NavLink>          
+        </li>
         <li>
         {/* <Link to="/about">About</Link> */}
         <NavLink to="/about">About</NavLink>

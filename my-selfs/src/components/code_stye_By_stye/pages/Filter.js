@@ -5,8 +5,8 @@ const Filter = () => {
     const [searchDatas, setSearchDatas] = useSearchParams();
     const [searchDatas1, setSearchDatas1] = useSearchParams();
 
-    // console.warn(searchDatas.get("age"))
-    // console.warn(searchDatas1.get("name"))
+    console.warn(searchDatas.get("age"))
+    console.warn(searchDatas1.get("name"))
 
   return (
     <div>
