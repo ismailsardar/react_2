@@ -9,6 +9,9 @@ const NavDemo = () => {
           {/* <Link to="/">Home</Link> */}
           <NavLink to="/">Home</NavLink>          
         </li>
+        <li>          
+          <NavLink to="/filter">Filter</NavLink>          
+        </li>
         <li>
         {/* <Link to="/about">About</Link> */}
         <NavLink to="/about">About</NavLink>
