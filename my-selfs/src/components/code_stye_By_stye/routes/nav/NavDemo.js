@@ -1,15 +1,18 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const NavDemo = () => {
   return (
     <div>
-      <ul>
+      <ul className="myNav" >
         <li>
-          <Link to="/">Home</Link>          
+          {/* <Link to="/">Home</Link> */}
+          <NavLink to="/">Home</NavLink>          
         </li>
         <li>
-        <Link to="/about">About</Link>
+        {/* <Link to="/about">About</Link> */}
+        <NavLink to="/about">About</NavLink>
+        {/* <NavLink to="/about" style={(isActive)=>{return {backgroundColor: isActive ? "#00050e" : "white"}}}>About</NavLink> */}
         </li>
 
         {/* params routing */}

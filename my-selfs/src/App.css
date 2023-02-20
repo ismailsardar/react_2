@@ -47,6 +47,17 @@
   color: red;
 }
 
+.myNav li{
+  display: inline-block;
+  text-decoration: none;
+  padding: 0.6rem;
+}
+.myNav li .active{
+  color: #e6dde6;
+  background-color: #00050e;
+  padding: 0.2rem;
+}
+
 nav .active{
   color: rgb(5, 240, 16);
 }
