@@ -11,6 +11,15 @@ const NavDemo = () => {
         <li>
         <Link to="/about">About</Link>
         </li>
+
+        {/* params routing */}
+        <li>
+        <Link to="/user/ismile">ismile</Link>
+        </li>
+        <li>
+        <Link to="/user/sardar">sardar</Link>
+        </li>
+        {/* params routing end */}
       </ul>
     </div>
   );
