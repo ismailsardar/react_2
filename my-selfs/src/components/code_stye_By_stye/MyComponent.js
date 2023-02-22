@@ -1,5 +1,6 @@
 import React from 'react'
 import Parent from './Prives_Props/Parent'
+import StateObj from './StateWithObject/StateObj'
 // import HocFunction from './HOC/HocFunction'
 // import ForwardRef from './Ref/ForwardRef'
 // import ClassRef from './Ref/ClassRef'
@@ -29,7 +30,8 @@ const MyComponent = () => {
         <ForwardRef />
         <HocFunction /> */}
         {/* <DemoRouts /> */}
-        <Parent />
+        {/* <Parent /> */}
+        <StateObj />
     </div>
   )
 }
