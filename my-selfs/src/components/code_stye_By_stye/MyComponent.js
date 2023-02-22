@@ -1,4 +1,5 @@
 import React from 'react'
+import Parent from './Prives_Props/Parent'
 // import HocFunction from './HOC/HocFunction'
 // import ForwardRef from './Ref/ForwardRef'
 // import ClassRef from './Ref/ClassRef'
@@ -10,7 +11,7 @@ import React from 'react'
 // import PureComponents from './pureComponent/PureComponent'
 // import MyMemo from './useMemo/MyMemo'
 // import FunRef from './Ref/FunRef'
-import DemoRouts from './routes/DemoRouts'
+// import DemoRouts from './routes/DemoRouts'
 
 const MyComponent = () => {
   return (
@@ -27,7 +28,8 @@ const MyComponent = () => {
         <FunRef />
         <ForwardRef />
         <HocFunction /> */}
-        <DemoRouts />
+        {/* <DemoRouts /> */}
+        <Parent />
     </div>
   )
 }
